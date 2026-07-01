@@ -1,6 +1,6 @@
 """
-app.py — JioSaavn API  |  Flask + Vercel Edition
-Credits: @ab_devs
+app.py — Molla API  |  Flask + Vercel Edition
+Credits: @Molla_Mohammad_Rifat_Osama
 """
 
 import json
@@ -55,7 +55,7 @@ def err(msg, code=400):
 def home():
     return jsonify({
         "success": True,
-        "message": "JioSaavn API — Credits: @ab_devs",
+        "message": "Molla API — Credits: @Molla_Mohammad_Rifat_Osama",
         "endpoints": {
             "search":    "/api/search?query=",
             "songs":     "/api/songs?ids=  or  /api/songs?link=",
